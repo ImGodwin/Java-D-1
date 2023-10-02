@@ -22,6 +22,16 @@ public  class Array
 
         System.out.println("String: " + oneStr(letter, num));*/
 
+        String[] newArr = {"a", "b", "c", "d", "e"};
+        String letters = "prova";
+
+        String[] str = arr(newArr, letters );
+
+        for (int i = 0; i<str.length; i++)
+        {
+            System.out.print(str[i] + " " );
+        }
+
         input.close();
     }
     public static int multiply(int a, int b)
@@ -32,6 +42,23 @@ public  class Array
     public static String oneStr(String a, int b)
     {
         return (a + b);
+    }
+
+    public static String[] arr(String[] a, String b)
+    {
+        String[] emptyArr = new String[6];
+        int cont = 0;
+        for (int i=0; i<emptyArr.length; i++)
+        {
+
+            if (i == 2)
+            {
+                emptyArr[i] = b;
+            }else {
+                emptyArr[i] = a[cont];
+                cont++;
+            }
+        }return  emptyArr;
     }
 }
 
