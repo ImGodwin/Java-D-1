@@ -24,4 +24,15 @@ public static String concat(String name1, String name2, String name3)
 {
     return (name1 + name2 + name3);
 }
-}
+    public static void reversedstring(String n1, String n2)
+    {
+        String[] input = {n1 + n2};
+
+       // for (int i = input.length - 1; i>=0; i--) {
+        // String detail = input[i];
+         //return detail
+        //}
+    }
+};
+
+
