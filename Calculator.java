@@ -36,7 +36,7 @@ public class Calculator
 
 
 
-
+        input.close();
     }
 
     public static int addingRectangleSides(int s1, int s2)
