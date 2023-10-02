@@ -14,13 +14,24 @@ public  class Array
 
         System.out.println("Multiplied num: " + multiply(integer1, integer2));*/
 
+        /*System.out.println("Type in letter: ");
+        String letter = input.nextLine();
 
+        System.out.println("Type in num: ");
+        int num = Integer.parseInt(input.nextLine());
+
+        System.out.println("String: " + oneStr(letter, num));*/
 
         input.close();
     }
     public static int multiply(int a, int b)
     {
         return (a * b);
+    }
+
+    public static String oneStr(String a, int b)
+    {
+        return (a + b);
     }
 }
 
