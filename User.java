@@ -14,7 +14,12 @@ public class User {
 
         System.out.println("What do you love about this city?");
         String interest = input.nextLine();
+
+        System.out.println(concat(name, location, interest));
     }
 
-
+public static String concat(String name1, String name2, String name3)
+{
+    return (name1 + name2 + name3);
+}
 }
