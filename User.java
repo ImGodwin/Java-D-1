@@ -16,6 +16,8 @@ public class User {
         String interest = input.nextLine();
 
         System.out.println(concat(name, location, interest));
+
+        input.close();
     }
 
 public static String concat(String name1, String name2, String name3)
